@@ -3,7 +3,16 @@ var itemLinks = document.querySelectorAll('.menu-item-link');
 var headerBackground = document.querySelector('.header__wrapper-bot')
 var logoCafeColor = document.querySelector('.logo-cafe-color')
 var logoWhite = document.querySelector('.logo-white')
+var moveToTop = document.querySelector('.move-to-top');
 logoCafeColor.style.display = 'none';
+
+window.onscroll = function(s) {
+  if(this.scrollY > 500) {
+    moveToTop.style.display = 'block';
+  } else {
+    moveToTop.style.display = 'none';
+  }
+}
 
 window.onscroll = function(e) {
   if(this.scrollY > 500) {

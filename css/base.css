@@ -109,6 +109,7 @@
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
   font-family: "Poppins", sans-serif;
 }
 
@@ -167,6 +168,17 @@ img {
   --sec-color: #ffbb27;
 }
 
+.wrapper .move-to-top {
+  background-color: var(--main-color);
+  z-index: 10;
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+}
+.wrapper .move-to-top ion-icon {
+  font-size: 35px;
+  color: var(--sec-color);
+}
 .wrapper header .header__wrapper {
   position: fixed;
   top: 0;
