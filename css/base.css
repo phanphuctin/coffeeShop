@@ -454,11 +454,10 @@ img {
 .wrapper .main-page .menu .menu-pricing {
   width: 100% !important;
   padding: 1px 0 58px;
+  background-color: #ccc;
   background-image: url(/assets/img/pricing.jpg);
   background-size: cover;
   position: relative;
-  background-attachment: fixed;
-  z-index: -1;
   margin: 90px auto;
 }
 .wrapper .main-page .menu .menu-pricing::before {
@@ -469,7 +468,6 @@ img {
   left: 0;
   right: 0;
   background-color: rgba(0, 0, 0, 0.3);
-  z-index: -1;
 }
 .wrapper .main-page .menu .menu-pricing .pricing-container {
   color: var(--white-color);

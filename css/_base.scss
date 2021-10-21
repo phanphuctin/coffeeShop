@@ -379,11 +379,11 @@ img {
       .menu-pricing {
         width: 100% !important;
         padding: 1px 0 58px;
+        background-color: #ccc;
         background-image: url(/assets/img/pricing.jpg);
         background-size: cover;
+       // background-attachment: fixed;
         position: relative;
-        background-attachment: fixed;
-        z-index: -1;
         margin: 90px auto;
         &::before {
           content: '';
@@ -393,7 +393,6 @@ img {
           left: 0;
           right: 0;
           background-color: rgba(0,0,0,.3);
-          z-index: -1;
         }
         .pricing-container {
           color: var(--white-color);
